@@ -32,6 +32,10 @@ public class librarycontroller {
     public String Booksearch(){
         return "Search the books";
     }
+    @PostMapping("/bookissue")
+    public String Bookissue(){
+        return "Issue the books";
+    }
 }
 
 
