@@ -44,6 +44,10 @@ public class librarycontroller {
     public String Bookview(){
         return "View the books";
     }
+    @PostMapping("/bookdelete")
+    public String Bookdelete(){
+        return "Edit the books";
+    }
 }
 
 
