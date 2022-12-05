@@ -40,6 +40,10 @@ public class librarycontroller {
     public String Bookedit(){
         return "Edit the books";
     }
+    @GetMapping("/bookview")
+    public String Bookview(){
+        return "View the books";
+    }
 }
 
 
