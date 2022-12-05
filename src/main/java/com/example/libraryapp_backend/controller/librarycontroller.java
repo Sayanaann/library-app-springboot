@@ -25,8 +25,29 @@ public class librarycontroller {
         return "welcome to userreg";
     }
     @PostMapping("/bookentry")
-    public String Bookenry(){
+    public String Bookentry(){
+
         return "Enter the books";
+    }
+    @PostMapping("/booksearch")
+    public String Booksearch(){
+        return "Search the books";
+    }
+    @PostMapping("/bookissue")
+    public String Bookissue(){
+        return "Issue the books";
+    }
+    @PostMapping("/bookedit")
+    public String Bookedit(){
+        return "Edit the books";
+    }
+    @GetMapping("/bookview")
+    public String Bookview(){
+        return "View the books";
+    }
+    @PostMapping("/bookdelete")
+    public String Bookdelete(){
+        return "Edit the books";
     }
 }
 
