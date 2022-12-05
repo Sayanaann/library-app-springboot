@@ -20,6 +20,10 @@ public class librarycontroller {
     public String Userlogin(){
         return "welcome to userlogin";
     }
+    @PostMapping("/userreg")
+    public String Userreg(){
+        return "welcome to userreg";
+    }
 }
 
 
