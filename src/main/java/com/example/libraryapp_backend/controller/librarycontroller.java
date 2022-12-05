@@ -28,6 +28,10 @@ public class librarycontroller {
     public String Bookenry(){
         return "Enter the books";
     }
+    @PostMapping("/booksearch")
+    public String Booksearch(){
+        return "Search the books";
+    }
 }
 
 
