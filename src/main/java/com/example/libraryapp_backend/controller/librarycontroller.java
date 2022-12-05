@@ -24,6 +24,10 @@ public class librarycontroller {
     public String Userreg(){
         return "welcome to userreg";
     }
+    @PostMapping("/bookentry")
+    public String Bookenry(){
+        return "Enter the books";
+    }
 }
 
 
